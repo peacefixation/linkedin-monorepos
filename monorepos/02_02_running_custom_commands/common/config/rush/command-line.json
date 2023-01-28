@@ -4,6 +4,14 @@
  */
 {
   "$schema": "https://developer.microsoft.com/json-schemas/rush/v5/command-line.schema.json",
-  "commands": [],
+  "commands": [
+    {
+      "commandKind": "bulk",
+      "name": "testrush",
+      "summary": "Runs tests on every project.",
+      "description": "Run the local test command",
+      "enableParallelism": true
+    }
+  ],
   "parameters": []
 }
